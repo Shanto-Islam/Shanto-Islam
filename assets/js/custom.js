@@ -13,8 +13,6 @@ $(window).on('load', function() {
         document.getElementsByClassName('preload')[0].style.display = "block";
     }
 
-    
-
     /*=========================================================================
      Parallax layers
      =========================================================================*/
@@ -46,9 +44,28 @@ $(window).on('load', function() {
      =========================================================================*/
     $("body").scrollspy({ target: ".scrollspy"});
 
-   
-  
-    
+   /*Nav-f*/
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar **
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+     $('#nav-f').fadeOut(400);
+     } else {
+    $('#nav-f').fadeIn(400)
+  }
+  prevScrollpos = currentScrollPos;
+} 
+/*new**
+	$(window).scroll(function() {
+	if ($(this).scrollTop() >= 150) {       
+	document.getElementById("nav-f").style.bottom = "0";
+	
+	} else {
+	document.getElementById("nav-f").style.bottom = "-60px";
+	}
+	});
+*/
     /*=========================================================================
             Scroll to Top
     =========================================================================*/
@@ -67,5 +84,6 @@ $(window).on('load', function() {
     });
 
 });
+
 
 
