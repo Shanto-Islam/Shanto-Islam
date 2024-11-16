@@ -19,15 +19,15 @@
 - **[Crazy Phisher](https://crazyphisher.web.app)**: A phishing simulator app.
 - **Bazar Talika**: A smart shopping list app.
 - **Keep Links**: A bookmark management tool.
-- **Mini Militia Mod**: Check out my modded version [here](https://shantoislamwdev.web.app/).
+- **Mini Militia Mod**: Check out my modded version [here](https://shantoislamdev.web.app/).
 
 ---
 
 ## 📈 GitHub Stats
 
-![Shanto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shanto-slam&show_icons=true&theme=radical)
+![Shanto's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Shanto-Islam&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shanto-slam&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Shanto-Islam&layout=compact&theme=radical)
 
 ---
 
